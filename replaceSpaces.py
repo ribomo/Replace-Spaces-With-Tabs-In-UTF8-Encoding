@@ -5,7 +5,7 @@ import re
 print('Open file')
 file_ob = codecs.open('d:\\1.txt','r','utf-8')
 file_out = codecs.open('d:\\1.txt','w','utf-8')
-fileLines = 33409493
+fileLines = 3000000 #Replace this with the how many line your file contains.
 try:
     print('Start')
     i = 1
